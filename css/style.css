@@ -206,3 +206,78 @@ main section.first-window form label svg{
     width: 18px;
 }
 
+main section.logotips{
+    padding: 6vw 8vw;
+    display: grid;
+    grid-template-columns: 3fr 3fr 6fr;
+    align-items: center;
+}
+
+main section.logotips div{
+    justify-self: end; 
+    grid-column: 3/4;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 30px;
+    grid-template-rows: 30px;
+}
+
+main section.logotips div img{
+    width: 100%;
+}
+
+main section.works{
+    padding: 0 8vw;
+    display: grid;
+    justify-items: center;
+    row-gap: 20px;
+}
+
+main section.works h2{
+    font-size: 48px;
+}
+
+main section.works>p{
+    width: 50%;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #65665C;
+}
+
+main section.works ul{
+    padding-top: 40px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3vw;
+}
+
+main section.works ul li{
+    display: grid;
+    grid-template-rows: 48px min-content max-content;
+    justify-items: center;
+    row-gap: 24px;
+    border: 1px solid #F2F2F0;
+    padding: 3vw;
+    border-radius: 6px;
+}
+
+main section.works ul li h3{
+    font-size: 24px;
+}
+
+main section.works ul li svg{
+    height: 100%;
+    background-color: #FAE8E1;
+    padding: 10px;
+    color: var(--color-accent);
+    border-radius: 6px;
+}
+
+main section.works ul li p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #65665C;
+}
