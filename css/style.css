@@ -82,12 +82,14 @@ header nav .properties{
     display: grid;
     grid-template-columns: min-content 14px;
     align-items: center;
+    column-gap: 10px;
 }
 
 header nav .search{
     display: grid;
     grid-template-columns: 14px min-content;
     align-items: center;
+    column-gap: 10px;
 }
 
 header nav .buttons{
