@@ -190,8 +190,12 @@ main section.first-window form label{
 main section.first-window form label input{
     border: none;
     padding: 0 20px;
+    height: 100%;
 }
 
+main section.first-window form label input:focus{
+    border-color: white;
+}
 
 main section.first-window form label input::placeholder{
     font-size: 18px;
