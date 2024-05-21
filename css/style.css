@@ -156,15 +156,18 @@ main section.first-window div>span{
     padding: 4px 10px;
     justify-self: start;
     border-radius: 6px;
+    color: #2A2C1F;
 }
 
 main section.first-window h1{
     font-size: 56px;
     padding: 20px 0;
+    color: #2A2C1F;
 }
 
 main section.first-window p{
     font-size: 20px;
+    color: #65665C;
 }
 
 main section.first-window form{
@@ -187,6 +190,11 @@ main section.first-window form label{
 main section.first-window form label input{
     border: none;
     padding: 0 20px;
+}
+
+
+main section.first-window form label input::placeholder{
+    font-size: 18px;
 }
 
 main section.first-window form label svg{
